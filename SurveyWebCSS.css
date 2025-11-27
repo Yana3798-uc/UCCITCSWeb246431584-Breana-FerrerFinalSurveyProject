@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background: white;
+  padding: 2em 3em;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1#title {
+  text-align: center;
+  color: #005f73;
+  margin-bottom: 0.2em;
+}
+
+p#description {
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #0a9396;
+}
+
+form#survey-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+label, legend {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.3em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  padding: 0.6em;
+  border-radius: 5px;
+  border: 1.5px solid #94a1b2;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #005f73;
+  outline: none;
+}
+
+fieldset {
+  border: 1px solid #94a1b2;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 0;
+}
+
+fieldset legend {
+  padding: 0 0.5em;
+}
+
+label > input[type="radio"],
+label > input[type="checkbox"] {
+  margin-right: 0.5em;
+  transform: scale(1.1);
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+button#submit {
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  padding: 0.8em;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button#submit:hover {
+  background-color: #007f7f;
+}
