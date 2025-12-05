@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #e6f0ff; /* Softer light blue background */
+  background: #e6f0ff; 
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,16 +10,16 @@ body {
 }
 
 #survey-container {
-  background: #ffffff; /* Keep container white for clarity */
+  background: #ffffff; 
   padding: 2rem 3rem;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 64, 128, 0.2); /* Slightly stronger blue shadow */
+  box-shadow: 0 6px 20px rgba(0, 64, 128, 0.2); 
   max-width: 600px;
   width: 100%;
 }
 
 h1#title {
-  color: #00264d; /* Darker blue for title */
+  color: #00264d; 
   text-align: center;
   margin-bottom: 0.2rem;
   text-shadow: 1px 1px 2px #cce0ff;
@@ -29,14 +29,14 @@ p#description {
   text-align: center;
   font-size: 1.15rem;
   margin-bottom: 1.5rem;
-  color: #003366; /* Dark blue for description */
+  color: #003366; 
 }
 
 label {
   display: block;
   margin-top: 1rem;
   font-weight: 600;
-  color: #004080; /* Original label blue */
+  color: #004080; 
 }
 
 input[type="text"],
@@ -52,8 +52,8 @@ textarea {
   font-size: 1rem;
   box-sizing: border-box;
   font-family: inherit;
-  background: #f0f8ff; /* Light blue background for inputs */
-  color: #00264d; /* Dark text for inputs */
+  background: #f0f8ff; 
+  color: #00264d; 
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -80,12 +80,20 @@ textarea {
 .radio-group label,
 .checkbox-group label {
   font-weight: normal;
-  color: #00264d; /* Dark blue for radio/checkbox labels */
+  color: #00264d; 
   margin-right: 1.5rem;
   cursor: pointer;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
-/* Submit Button */
+.hint {
+  font-size: 0.9rem;
+  color: #0066cc;
+  margin-top: 0.3rem;
+  font-style: italic;
+}
+
 button#submit {
   margin-top: 2rem;
   width: 100%;
